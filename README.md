@@ -8,8 +8,10 @@ O Proposal é uma plataforma que visa facilitar a criação e gerenciamento de c
 - [⚙️ Configuração do Projeto](docs/project-config.md)
 - [🗄️ Estrutura do Projeto](docs/project-structure.md)
 - [💅 Componentes & Estilos](docs/components-and-styles.md)
-- [📡 API](docs/api-layer.md)
-- [🔒 Segurança](docs/security.md)
+- [🌲 Fluxo de Git](docs/git-flow.md)
+<!-- - [📡 API](docs/api-layer.md) -->
+- [⚠️ Lidando com Erros](docs/error-handling.md)
+- [🔒 Segurança & Autenticação](docs/security-and-auth.md)
 - [🌐 Deploy](docs/deploy.md)
 - [📚 Recursos Adicionais](docs/additional-resources.md)
 
