@@ -1,0 +1,19 @@
+# Folders
+node_modules/
+build/
+dist/
+docs/
+.vscode/
+
+# Files
+*.log
+*.yaml
+
+# Lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ESLint
+.eslintrc.json
+.eslintignore

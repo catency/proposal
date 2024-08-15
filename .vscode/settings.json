@@ -1,0 +1,22 @@
+{
+  // Força a utilização do Prettier como formatador padrão
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  /*
+    fileNesting é uma feature nativa do VSCode para agrupar arquivos relacionados em suas patterns.
+
+    Se quiser entender melhor, veja o seguinte link:
+
+    https://dev.to/this-is-learning/file-nesting-in-vs-code-46l5
+  */
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": true,
+  "explorer.fileNesting.patterns": {
+    // Config
+    "tsconfig.json": "tsconfig*",
+    "package.json": "package-lock*, yarn*, pnpm-lock*",
+    "next.config*": ".eslint*, .prettier*, prettier*",
+    "tailwind.config*": "postcss*, autoprefixer*",
+    // Env
+    ".env": ".env*"
+  }
+}
