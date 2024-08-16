@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -61,7 +63,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border box-border scroll-smooth;
   }
   body {
     @apply bg-background text-foreground;

@@ -1,6 +1,30 @@
 {
-  "extends": ["next", "prettier", "next/core-web-vitals", "@rocketseat/eslint-config/next"],
+  "extends": [
+    "next",
+    "prettier",
+    "next/core-web-vitals",
+    "@rocketseat/eslint-config/next"
+  ],
+  "plugins": ["import-helpers"],
   "rules": {
+    "import-helpers/order-imports": [
+      "error",
+      {
+        "newlinesBetween": "always", // new line between groups
+        "groups": [
+          "/^react/",
+          "/^next/",
+          "module",
+          "/^@phosphor/",
+          "/^@/components/",
+          "/^@/",
+          ["parent", "sibling", "index"]
+        ],
+        "alphabetize": { "order": "asc", "ignoreCase": true }
+      }
+    ],
+    "spaced-comment": "warn",
+    "no-console": "warn",
     "@typescript-eslint/no-explicit-any": "off"
   }
 }

@@ -1,6 +1,9 @@
 import type { Config } from 'tailwindcss'
 
-const config = {
+/**
+ * @see https://tailwindcss.com/docs/configuration
+ */
+const config: Config = {
   darkMode: ['class'],
   content: [
     './pages/**/*.{ts,tsx}',
